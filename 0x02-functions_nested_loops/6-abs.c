@@ -4,12 +4,13 @@
  * *_abs - gives the absolute value
  * of an integer
  *
- * @n: The input number as integer
  *
  * Return: absolute value
  */
-int _abs(int n)
+int _abs(int)
 {
+	int n;
+
 	if (n >= 0)
 	{
 	return (n);
