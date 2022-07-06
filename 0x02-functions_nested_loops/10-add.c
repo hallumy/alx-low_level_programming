@@ -4,7 +4,10 @@
  * *add - Function that adds two integers
  * and returns the result
  *
- * Return: Adds two numbers
+ * @a: number one
+ * @b: number two
+ *
+ * Return: Adds number one and number two
  */
 int add(int a, int b)
 {

@@ -4,20 +4,24 @@
  * print_last_digit - Prints the last digit
  * of  number
  *
+ * @n: The input number is an integer
+ *
  * Return last digit
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int i;
 
+	i = n % 10;
+
 	if (i < 0)
 		{
-		_putchar(-1 + 48);
-	return (-1);
+		_putchar(-i + 48);
+	return (-i);
 		}
 	else
 	{
-	_putchar(1 + 48);
-	return (1);
+	_putchar(i + 48);
+	return (i);
 	}
 }
