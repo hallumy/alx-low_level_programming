@@ -5,7 +5,6 @@
  * of an integer
  *
  *@n: input number as an integer
-
  * Return: absolute value
  */
 int _abs(int n)

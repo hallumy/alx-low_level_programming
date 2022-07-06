@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printing - Prints the word "Putchar"
+ * main - Prints the word "Putchar"
  *
  * Return: Always 0 (Success)
  */
