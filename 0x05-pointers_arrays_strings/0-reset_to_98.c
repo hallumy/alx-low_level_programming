@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - updates the value of n to 98
  *
- * @*n: Integer pointer to a variable to be updated
+ * @n: Integer pointer to a variable to be updated
  *
  * Return: Nothing
  */
