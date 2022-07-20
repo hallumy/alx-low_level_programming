@@ -12,3 +12,6 @@ Returns the length of a string
 
 3-factorial.c
 Returns the factorial of a given number
+
+4-pow_recursion.c
+This is a function that returns the value of x raised to the power of y
