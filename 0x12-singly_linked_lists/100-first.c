@@ -3,8 +3,8 @@
 void hare_and_tortoise(void)__attribute__ ((constructor));
 
 /**
- * hare_and_tortoise - Prints a string before the main 
- * 			function is executed
+ * hare_and_tortoise - Prints a string before the main
+ *			function is executed
  */
 
 void hare_and_tortoise(void)
