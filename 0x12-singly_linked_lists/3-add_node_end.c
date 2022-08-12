@@ -54,7 +54,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 /**
  * create_node - Creates a node
- * @st: Value for the node
+ * @str: Value for the node
  * Return: A pointer to the beginning of the list
  */
 list_t *create_node(const char *str)
