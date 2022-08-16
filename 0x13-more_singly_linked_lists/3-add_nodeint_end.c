@@ -18,7 +18,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	new_node = create_node(n);
 	if (new_node == NULL)
 		return (NULL);
-	
+
 	if (*head == NULL)
 	{
 		*head = new_node;
@@ -32,7 +32,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 }
 
 /**
- * create_node * Create a node
+ * create_node - Create a node
  * @n: Value for the node
  * Return: Apointer to the beginning of the list
  */
